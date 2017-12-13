@@ -42,9 +42,9 @@ public class MainWindows extends JFrame {
  }
 	 
 
-
+/*
  	public static void main(String [] args){
  		JFrame frame = new MainWindows();
- 	}
+ 	}*/
 
 }
