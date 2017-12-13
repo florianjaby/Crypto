@@ -38,8 +38,22 @@ public class MainWindows extends JFrame {
 	 setSize(1000,500);
 	 setVisible(true);
 	 
+	 button.addActionListener(new ActionListener() {
+
+		@Override
+		public void actionPerformed(ActionEvent arg0) {
+			JFileChooser jfc = new JFileChooser();
+			jfc.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
+			jfc.setAcceptAllFileFilterUsed(true);
+			if(jfc.showOpenDialog(panneau)==JFileChooser.APPROVE_OPTION) {
+				textField1.setText(jfc.getSelectedFile().getAbsolutePath());
+			}
+			
+		}
+		 
+	 });
 	 
- }
+ }s
 	 
 
 /*
