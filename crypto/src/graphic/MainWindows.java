@@ -53,7 +53,7 @@ public class MainWindows extends JFrame {
 		 
 	 });
 	 
- }s
+ }
 	 
 
 
